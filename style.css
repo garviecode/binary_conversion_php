@@ -1,0 +1,50 @@
+body {
+    color: white;
+    background: black;
+}
+
+#pageHeading {
+        font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+        color: white;
+        text-align: center;
+        animation-duration: 5s;
+        animation-name: slidein;
+        animation-iteration-count: 1;
+
+}
+
+#signed {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+
+}
+
+form {
+    align-self: center;
+    text-align: center;
+}
+
+#number {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#submitbutton {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
